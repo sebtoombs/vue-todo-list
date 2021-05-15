@@ -1,0 +1,15 @@
+.VStack {
+  @apply flex flex-col;
+}
+
+.VStack > * {
+  margin-top: var(--vstack-spacing);
+  margin-bottom: var(--vstack-spacing);
+}
+
+.VStack > *:first-child {
+  margin-top: 0;
+}
+.VStack > *:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,13 @@
+.TodoItem {
+  @apply bg-white shadow-lg rounded-md grid p-1;
+  grid-template-columns: 6rem auto 4rem 3rem;
+}
+
+.DeleteButton {
+  @apply inline-flex items-center justify-center transition duration-200 relative whitespace-nowrap leading-tight rounded-md outline-none w-auto font-semibold  bg-transparent text-red-600 p-3;
+
+  user-select: none;
+}
+.DeleteButton:hover {
+  @apply bg-red-100;
+}
